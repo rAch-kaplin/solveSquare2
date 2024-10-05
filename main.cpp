@@ -6,12 +6,12 @@
 #include "SolveSquare.hpp"
 #include "RunTests.hpp"
 
-int main()
+int main(int argc, char *argv[])
 {
     // TODO: args (argc + argv), args_parse
     allTests();
 
-    printf("#Square Solver! by rAch-kaplin\n");
+    printf("#Square Solver! by rAch-kaplin :)\n");
 
     printf("#Enter a b c: ");
 

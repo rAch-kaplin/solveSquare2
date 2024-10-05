@@ -15,7 +15,7 @@ void bufferScanf(double *a, double *b, double *c)
 {
     printf("Enter a, b, c or enter (q) - close program\n");
 
-    while (scanf("%lg %lg %lg", a, b, c) != 3) // TODO: check EOF, echo "...." | run.exe
+    while (scanf("%lg%lg%lg", a, b, c) != 3) // TODO: check EOF, echo "...." | run.exe
     {
         printf("error - a, b, c\n");
         printf("Enter a, b, c again: ");

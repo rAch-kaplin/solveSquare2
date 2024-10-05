@@ -15,6 +15,6 @@ struct UNIT_variables
 
 void allTests();
 
-int runTest(struct UNIT_variables data, int test_number);
+int runTest(const struct UNIT_variables *ptr_data, int test_number);
 
 #endif //_HRUN_TEST
